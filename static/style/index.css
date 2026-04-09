@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.nav-link.active.main{
+    color: white;
+    border: 2px solid #0D6EFD;
+
+    font-weight: 700;
+}
+
+.nav-link.history {
+    border: 2px solid #0D6EFD;
+    background-color: white;
+
+    color: #0D6EFD;
+
+    font-weight: 400;
+}
+
+.nav-link.history:hover {
+    background-color: #0D6EFD;
+    color: white;
+}
+
+.mood-btn { 
+    font-size: 1.6rem; 
+    transition: all 0.2s; 
+}
+
+.preview-thumb { 
+    width: 48px; 
+    height: 48px; 
+    object-fit: cover; 
+}
